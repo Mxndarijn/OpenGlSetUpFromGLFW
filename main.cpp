@@ -9,12 +9,18 @@
 GLFWwindow* window;
 glm::ivec2 screenSize;
 GLuint programId;
+GLuint programIdForCustomFragment;
 GLuint modelViewUniform;
 GLuint timeUniform;
+
+GLuint modelViewUniform1;
+GLuint timeUniform1;
+
 GLuint vertexShader;
 GLuint fragmentShader;
 float cube1Rotation;
 float cube2Rotation;
+float cube3Rotation;
 double lastTime;
 
 class Vertex
@@ -32,6 +38,7 @@ void checkShaderErrors(GLuint shaderId)
     glGetShaderiv(shaderId, GL_COMPILE_STATUS, &status);					//kijk of het compileren is gelukt
     if (status == GL_FALSE)
     {
+
         int length, charsWritten;
         glGetShaderiv(shaderId, GL_INFO_LOG_LENGTH, &length);				//haal de lengte van de foutmelding op
         char* infolog = new char[length + 1];
@@ -53,7 +60,6 @@ static void glfw_error_callback(int error, const char* description)
     std::cerr << "Glfw Error" << error << " -> " << description << std::endl;
 }
 
-
 void init()
 {
     if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress))
@@ -69,9 +75,17 @@ void init()
     std::string vertexShaderData((std::istreambuf_iterator<char>(vertexShaderFile)), std::istreambuf_iterator<char>());
     const char* cvertexShaderData = vertexShaderData.c_str();
 
+//    std::ifstream vertexShaderFile1("shaders/custom.vs");
+//    std::string vertexShaderData1((std::istreambuf_iterator<char>(vertexShaderFile1)), std::istreambuf_iterator<char>());
+//    const char* cvertexShaderData1 = vertexShaderData1.c_str();
+
     std::ifstream fragShaderFile("shaders/simple.fs");
     std::string fragShaderData((std::istreambuf_iterator<char>(fragShaderFile)), std::istreambuf_iterator<char>());
     const char* cfragShaderData = fragShaderData.c_str();
+
+    std::ifstream fragShaderFile1("shaders/custom.fs");
+    std::string fragShaderData1((std::istreambuf_iterator<char>(fragShaderFile1)), std::istreambuf_iterator<char>());
+    const char* cfragShaderData1 = fragShaderData1.c_str();
 
     programId = glCreateProgram();							// maak een shaderprogramma aan
 
@@ -89,11 +103,27 @@ void init()
     glAttachShader(programId, fragmentId);					// hang de shader aan het shaderprogramma
 
     glLinkProgram(programId);								// link het programma, zorg dat alle attributes en varying gelinked zijn
-    glUseProgram(programId);								// Zet dit als actieve programma
+    glUseProgram(programId); // Zet dit als actieve programma
+
+    programIdForCustomFragment = glCreateProgram();
+
+    glAttachShader(programIdForCustomFragment, vertexId);
+
+    GLuint fragmentId1 = glCreateShader(GL_FRAGMENT_SHADER);	// maak fragment shader aan
+    glShaderSource(fragmentId1, 1, &cfragShaderData1, NULL);	// laat opengl de shader uit de variabele 'fragmentShader' halen
+    glCompileShader(fragmentId1);							// compileer de shader
+    checkShaderErrors(fragmentId1);							// controleer of er fouten zijn opgetreden bij het compileren
+    glAttachShader(programIdForCustomFragment, fragmentId1);					// hang de shader aan het shaderprogramma
+
+    glLinkProgram(programIdForCustomFragment);
+
+
+
 
     modelViewUniform = glGetUniformLocation(programId, "modelViewProjectionMatrix");	//haal de uniform van modelViewMatrix op
     timeUniform = glGetUniformLocation(programId, "time");	//haal de uniform van modelViewMatrix op
-
+    modelViewUniform1 = glGetUniformLocation(programIdForCustomFragment, "modelViewProjectionMatrix");	//haal de uniform van modelViewMatrix op
+    timeUniform1 = glGetUniformLocation(programIdForCustomFragment, "time");	//haal de uniform van modelViewMatrix op
     glEnableVertexAttribArray(0);							// we gebruiken vertex attribute 0
     glEnableVertexAttribArray(1);							// en vertex attribute 1
 
@@ -107,43 +137,43 @@ void init()
     cube2Rotation = 0;
     lastTime = glfwGetTime();
 }
-void createCube(const glm::vec3& translation, const glm::vec4(&colors)[6]) {
+void createCube(const glm::vec4(&colors)[6]) {
     Vertex vertices[] = {
             // front face
-            Vertex(glm::vec3(-1, -1, -1) + translation, colors[0]),
-            Vertex(glm::vec3(1, -1, -1) + translation, colors[0]),
-            Vertex(glm::vec3(1, 1, -1) + translation, colors[0]),
-            Vertex(glm::vec3(-1, 1, -1) + translation, colors[0]),
+            Vertex(glm::vec3(-1, -1, -1), colors[0]),
+            Vertex(glm::vec3(1, -1, -1), colors[0]),
+            Vertex(glm::vec3(1, 1, -1), colors[0]),
+            Vertex(glm::vec3(-1, 1, -1), colors[0]),
 
             // back face
-            Vertex(glm::vec3(-1, -1, 1) + translation, colors[1]),
-            Vertex(glm::vec3(1, -1, 1) + translation, colors[1]),
-            Vertex(glm::vec3(1, 1, 1) + translation, colors[1]),
-            Vertex(glm::vec3(-1, 1, 1) + translation, colors[1]),
+            Vertex(glm::vec3(-1, -1, 1), colors[1]),
+            Vertex(glm::vec3(1, -1, 1), colors[1]),
+            Vertex(glm::vec3(1, 1, 1), colors[1]),
+            Vertex(glm::vec3(-1, 1, 1), colors[1]),
 
             // left face
-            Vertex(glm::vec3(-1, -1, -1) + translation, colors[2]),
-            Vertex(glm::vec3(-1, 1, -1) + translation, colors[2]),
-            Vertex(glm::vec3(-1, 1, 1) + translation, colors[2]),
-            Vertex(glm::vec3(-1, -1, 1) + translation, colors[2]),
+            Vertex(glm::vec3(-1, -1, -1), colors[2]),
+            Vertex(glm::vec3(-1, 1, -1), colors[2]),
+            Vertex(glm::vec3(-1, 1, 1), colors[2]),
+            Vertex(glm::vec3(-1, -1, 1), colors[2]),
 
             // right face
-            Vertex(glm::vec3(1, -1, -1) + translation, colors[3]),
-            Vertex(glm::vec3(1, 1, -1) + translation, colors[3]),
-            Vertex(glm::vec3(1, 1, 1) + translation, colors[3]),
-            Vertex(glm::vec3(1, -1, 1) + translation, colors[3]),
+            Vertex(glm::vec3(1, -1, -1), colors[3]),
+            Vertex(glm::vec3(1, 1, -1), colors[3]),
+            Vertex(glm::vec3(1, 1, 1), colors[3]),
+            Vertex(glm::vec3(1, -1, 1), colors[3]),
 
             // bottom face
-            Vertex(glm::vec3(-1, -1, -1) + translation, colors[4]),
-            Vertex(glm::vec3(1, -1, -1) + translation, colors[4]),
-            Vertex(glm::vec3(1, -1, 1) + translation, colors[4]),
-            Vertex(glm::vec3(-1, -1, 1) + translation, colors[4]),
+            Vertex(glm::vec3(-1, -1, -1), colors[4]),
+            Vertex(glm::vec3(1, -1, -1), colors[4]),
+            Vertex(glm::vec3(1, -1, 1), colors[4]),
+            Vertex(glm::vec3(-1, -1, 1), colors[4]),
 
             // top face
-            Vertex(glm::vec3(-1, 1, -1) + translation, colors[5]),
-            Vertex(glm::vec3(1, 1, -1) + translation, colors[5]),
-            Vertex(glm::vec3(1, 1, 1) + translation, colors[5]),
-            Vertex(glm::vec3(-1, 1, 1) + translation, colors[5])
+            Vertex(glm::vec3(-1, 1, -1), colors[5]),
+            Vertex(glm::vec3(1, 1, -1), colors[5]),
+            Vertex(glm::vec3(1, 1, 1), colors[5]),
+            Vertex(glm::vec3(-1, 1, 1), colors[5])
     };
 
     glVertexAttribPointer(0, 3, GL_FLOAT, false, sizeof(Vertex), vertices);
@@ -160,23 +190,42 @@ void display()
 
     glm::mat4 mvp = glm::perspective(glm::radians(80.0f), screenSize.x / (float)screenSize.y, 0.01f, 100.0f);		//begin met een perspective matrix
     mvp *= glm::lookAt(glm::vec3(0.0f, 0.0f, 2.0f), glm::vec3(0.0f, 0.0f, 0.0f), glm::vec3(0.0f, 1.0f, 0.0f));		//vermenigvuldig met een lookat
-    mvp = glm::translate(mvp, glm::vec3(0, 0, -3));																	//verplaats de camera gewoon naar achter
-    auto rot1 = glm::rotate(mvp, cube1Rotation, glm::vec3(0, 1, 0));															//roteer het object een beetje
-    glUniformMatrix4fv(modelViewUniform, 1, GL_FALSE, glm::value_ptr(rot1));											//en zet de matrix in opengl
-    glUniform1f(timeUniform, (float)lastTime);
+    mvp = glm::translate(mvp, glm::vec3(0, 0, -3));//verplaats de camera gewoon naar achter
+
+
 
     // First Cube
-    glm::vec3 cube1Position = glm::vec3(2, 0, 0);
+    glm::vec3 cube1Position = glm::vec3(3, 0, 0);
+    auto mvp1 = glm::translate(mvp, cube1Position);
+    mvp1 = glm::rotate(mvp1, cube1Rotation, glm::vec3(0, 1, 0));															//roteer het object een beetje
+    glUniformMatrix4fv(modelViewUniform, 1, GL_FALSE, glm::value_ptr(mvp1));											//en zet de matrix in opengl
+    glUniform1f(timeUniform, (float)lastTime);
+
     glm::vec4 colors1[] = {glm::vec4(1,0,0,1), glm::vec4(0,1,0,1), glm::vec4(0,0,1,1), glm::vec4(1,1,0,1), glm::vec4(1,0,1,1), glm::vec4(0,1,1,1)};
-    createCube(cube1Position, colors1);
+    createCube(colors1);
 
     // Second Cube
-    auto rot2 = glm::rotate(mvp, cube2Rotation, glm::vec3(0, 1, 0));															//roteer het object een beetje
-    glUniformMatrix4fv(modelViewUniform, 1, GL_FALSE, glm::value_ptr(rot2));
+    glm::vec3 cube2Position = glm::vec3(0, 0, 0);
+    auto mvp2 = glm::translate(mvp, cube2Position);
+    mvp2 = glm::rotate(mvp2, cube2Rotation, glm::vec3(0, 1, 0));															//roteer het object een beetje
+    glUniformMatrix4fv(modelViewUniform, 1, GL_FALSE, glm::value_ptr(mvp2));											//en zet de matrix in opengl
+    glUniform1f(timeUniform, (float)lastTime);
 
-    glm::vec3 cube2Position = glm::vec3(-2, 0, 0);
     glm::vec4 colors2[] = {glm::vec4(0.5,0.5,0.5,1), glm::vec4(0.6,0.6,0.6,1), glm::vec4(0.7,0.7,0.7,1), glm::vec4(0.8,0.8,0.8,1), glm::vec4(0.9,0.9,0.9,1), glm::vec4(1.0,1.0,1.0,1)};
-    createCube(cube2Position, colors2);
+    createCube(colors2);
+
+    // third Cube
+    glUseProgram(programIdForCustomFragment);
+    glm::vec3 cube3Position = glm::vec3(-3, 0, 0);
+    auto mvp3 = glm::translate(mvp, cube3Position);
+    mvp3 = glm::rotate(mvp3, cube3Rotation, glm::vec3(0, 1, 0));															//roteer het object een beetje
+    glUniformMatrix4fv(modelViewUniform1, 1, GL_FALSE, glm::value_ptr(mvp3));											//en zet de matrix in opengl
+    glUniform1f(timeUniform1, (float)lastTime);
+
+    glm::vec4 colors3[] = {glm::vec4(0,0,0.5,1), glm::vec4(0,0,0.6,1), glm::vec4(0,0,0.7,1), glm::vec4(0,0,0.8,1), glm::vec4(0,0,0.9,1), glm::vec4(0,0,1.0,1)};
+
+    createCube(colors3);
+    glUseProgram(programId);
 
     glfwSwapBuffers(window);
 }
@@ -189,6 +238,7 @@ void update()
 
     cube1Rotation += (float)elapsed;
     cube2Rotation -= (float)elapsed * 1.5;
+    cube3Rotation += (float)elapsed * 0.5;
 
 
     if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Merij/Downloads/ClionOpenGLSetUp-Windows-master/OpenGlSetUpFromGLFW
+# Install script for directory: D:/OpenGlSetUpFromGLFW
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,12 +34,12 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Users/Merij/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.14015.92/bin/mingw/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Users/Merij/AppData/Local/Programs/CLion/bin/mingw/bin/objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Merij/Downloads/ClionOpenGLSetUp-Windows-master/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/cmake_install.cmake")
+  include("D:/OpenGlSetUpFromGLFW/cmake-build-debug/glfw/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Merij/Downloads/ClionOpenGLSetUp-Windows-master/OpenGlSetUpFromGLFW/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/OpenGlSetUpFromGLFW/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,4 +1,4 @@
-C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW -B C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug
+C:\Users\Merij\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S D:\OpenGlSetUpFromGLFW -B D:\OpenGlSetUpFromGLFW\cmake-build-debug
 CMake Deprecation Warning:
   Support for "Extra Generators" like
 
@@ -29,6 +29,6 @@ CMake Deprecation Warning at glfw/CMakeLists.txt:8 (cmake_policy):
 -- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
 -- Using Win32 for window creation
 -- Using WGL for context creation
--- Configuring done (0.5s)
--- Generating done (1.6s)
--- Build files have been written to: C:/Users/Merij/Downloads/ClionOpenGLSetUp-Windows-master/OpenGlSetUpFromGLFW/cmake-build-debug
+-- Configuring done (0.1s)
+-- Generating done (0.3s)
+-- Build files have been written to: D:/OpenGlSetUpFromGLFW/cmake-build-debug

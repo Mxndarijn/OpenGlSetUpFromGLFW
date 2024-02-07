@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Merij/Downloads/ClionOpenGLSetUp-Windows-master/OpenGlSetUpFromGLFW/glfw/deps/tinycthread.c" "glfw/tests/CMakeFiles/threads.dir/__/deps/tinycthread.c.obj" "gcc" "glfw/tests/CMakeFiles/threads.dir/__/deps/tinycthread.c.obj.d"
-  "C:/Users/Merij/Downloads/ClionOpenGLSetUp-Windows-master/OpenGlSetUpFromGLFW/glfw/tests/threads.c" "glfw/tests/CMakeFiles/threads.dir/threads.c.obj" "gcc" "glfw/tests/CMakeFiles/threads.dir/threads.c.obj.d"
+  "D:/OpenGlSetUpFromGLFW/glfw/deps/tinycthread.c" "glfw/tests/CMakeFiles/threads.dir/__/deps/tinycthread.c.obj" "gcc" "glfw/tests/CMakeFiles/threads.dir/__/deps/tinycthread.c.obj.d"
+  "D:/OpenGlSetUpFromGLFW/glfw/tests/threads.c" "glfw/tests/CMakeFiles/threads.dir/threads.c.obj" "gcc" "glfw/tests/CMakeFiles/threads.dir/threads.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

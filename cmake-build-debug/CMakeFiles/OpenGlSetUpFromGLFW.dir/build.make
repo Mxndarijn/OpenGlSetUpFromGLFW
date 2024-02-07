@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\cmake\win\x64\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\Merij\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\cmake\win\x64\bin\cmake.exe -E rm -f
+RM = C:\Users\Merij\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW
+CMAKE_SOURCE_DIR = D:\OpenGlSetUpFromGLFW
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug
+CMAKE_BINARY_DIR = D:\OpenGlSetUpFromGLFW\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/OpenGlSetUpFromGLFW.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/OpenGlSetUpFromGLFW.dir/flags.make
 
 CMakeFiles/OpenGlSetUpFromGLFW.dir/main.cpp.obj: CMakeFiles/OpenGlSetUpFromGLFW.dir/flags.make
 CMakeFiles/OpenGlSetUpFromGLFW.dir/main.cpp.obj: CMakeFiles/OpenGlSetUpFromGLFW.dir/includes_CXX.rsp
-CMakeFiles/OpenGlSetUpFromGLFW.dir/main.cpp.obj: C:/Users/Merij/Downloads/ClionOpenGLSetUp-Windows-master/OpenGlSetUpFromGLFW/main.cpp
+CMakeFiles/OpenGlSetUpFromGLFW.dir/main.cpp.obj: D:/OpenGlSetUpFromGLFW/main.cpp
 CMakeFiles/OpenGlSetUpFromGLFW.dir/main.cpp.obj: CMakeFiles/OpenGlSetUpFromGLFW.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpenGlSetUpFromGLFW.dir/main.cpp.obj"
-	C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenGlSetUpFromGLFW.dir/main.cpp.obj -MF CMakeFiles\OpenGlSetUpFromGLFW.dir\main.cpp.obj.d -o CMakeFiles\OpenGlSetUpFromGLFW.dir\main.cpp.obj -c C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OpenGlSetUpFromGLFW.dir/main.cpp.obj"
+	C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/OpenGlSetUpFromGLFW.dir/main.cpp.obj -MF CMakeFiles\OpenGlSetUpFromGLFW.dir\main.cpp.obj.d -o CMakeFiles\OpenGlSetUpFromGLFW.dir\main.cpp.obj -c D:\OpenGlSetUpFromGLFW\main.cpp
 
 CMakeFiles/OpenGlSetUpFromGLFW.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenGlSetUpFromGLFW.dir/main.cpp.i"
-	C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\main.cpp > CMakeFiles\OpenGlSetUpFromGLFW.dir\main.cpp.i
+	C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\OpenGlSetUpFromGLFW\main.cpp > CMakeFiles\OpenGlSetUpFromGLFW.dir\main.cpp.i
 
 CMakeFiles/OpenGlSetUpFromGLFW.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenGlSetUpFromGLFW.dir/main.cpp.s"
-	C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\main.cpp -o CMakeFiles\OpenGlSetUpFromGLFW.dir\main.cpp.s
+	C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\OpenGlSetUpFromGLFW\main.cpp -o CMakeFiles\OpenGlSetUpFromGLFW.dir\main.cpp.s
 
 # Object files for target OpenGlSetUpFromGLFW
 OpenGlSetUpFromGLFW_OBJECTS = \
@@ -90,18 +90,18 @@ OpenGlSetUpFromGLFW_OBJECTS = \
 # External object files for target OpenGlSetUpFromGLFW
 OpenGlSetUpFromGLFW_EXTERNAL_OBJECTS =
 
-C:/Users/Merij/Downloads/ClionOpenGLSetUp-Windows-master/OpenGlSetUpFromGLFW/bin/OpenGlSetUpFromGLFW.exe: CMakeFiles/OpenGlSetUpFromGLFW.dir/main.cpp.obj
-C:/Users/Merij/Downloads/ClionOpenGLSetUp-Windows-master/OpenGlSetUpFromGLFW/bin/OpenGlSetUpFromGLFW.exe: CMakeFiles/OpenGlSetUpFromGLFW.dir/build.make
-C:/Users/Merij/Downloads/ClionOpenGLSetUp-Windows-master/OpenGlSetUpFromGLFW/bin/OpenGlSetUpFromGLFW.exe: libGLAD.a
-C:/Users/Merij/Downloads/ClionOpenGLSetUp-Windows-master/OpenGlSetUpFromGLFW/bin/OpenGlSetUpFromGLFW.exe: glfw/src/libglfw3.a
-C:/Users/Merij/Downloads/ClionOpenGLSetUp-Windows-master/OpenGlSetUpFromGLFW/bin/OpenGlSetUpFromGLFW.exe: CMakeFiles/OpenGlSetUpFromGLFW.dir/linkLibs.rsp
-C:/Users/Merij/Downloads/ClionOpenGLSetUp-Windows-master/OpenGlSetUpFromGLFW/bin/OpenGlSetUpFromGLFW.exe: CMakeFiles/OpenGlSetUpFromGLFW.dir/objects1.rsp
-C:/Users/Merij/Downloads/ClionOpenGLSetUp-Windows-master/OpenGlSetUpFromGLFW/bin/OpenGlSetUpFromGLFW.exe: CMakeFiles/OpenGlSetUpFromGLFW.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\bin\OpenGlSetUpFromGLFW.exe"
+D:/OpenGlSetUpFromGLFW/bin/OpenGlSetUpFromGLFW.exe: CMakeFiles/OpenGlSetUpFromGLFW.dir/main.cpp.obj
+D:/OpenGlSetUpFromGLFW/bin/OpenGlSetUpFromGLFW.exe: CMakeFiles/OpenGlSetUpFromGLFW.dir/build.make
+D:/OpenGlSetUpFromGLFW/bin/OpenGlSetUpFromGLFW.exe: libGLAD.a
+D:/OpenGlSetUpFromGLFW/bin/OpenGlSetUpFromGLFW.exe: glfw/src/libglfw3.a
+D:/OpenGlSetUpFromGLFW/bin/OpenGlSetUpFromGLFW.exe: CMakeFiles/OpenGlSetUpFromGLFW.dir/linkLibs.rsp
+D:/OpenGlSetUpFromGLFW/bin/OpenGlSetUpFromGLFW.exe: CMakeFiles/OpenGlSetUpFromGLFW.dir/objects1.rsp
+D:/OpenGlSetUpFromGLFW/bin/OpenGlSetUpFromGLFW.exe: CMakeFiles/OpenGlSetUpFromGLFW.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable D:\OpenGlSetUpFromGLFW\bin\OpenGlSetUpFromGLFW.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\OpenGlSetUpFromGLFW.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/OpenGlSetUpFromGLFW.dir/build: C:/Users/Merij/Downloads/ClionOpenGLSetUp-Windows-master/OpenGlSetUpFromGLFW/bin/OpenGlSetUpFromGLFW.exe
+CMakeFiles/OpenGlSetUpFromGLFW.dir/build: D:/OpenGlSetUpFromGLFW/bin/OpenGlSetUpFromGLFW.exe
 .PHONY : CMakeFiles/OpenGlSetUpFromGLFW.dir/build
 
 CMakeFiles/OpenGlSetUpFromGLFW.dir/clean:
@@ -109,6 +109,6 @@ CMakeFiles/OpenGlSetUpFromGLFW.dir/clean:
 .PHONY : CMakeFiles/OpenGlSetUpFromGLFW.dir/clean
 
 CMakeFiles/OpenGlSetUpFromGLFW.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles\OpenGlSetUpFromGLFW.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\OpenGlSetUpFromGLFW D:\OpenGlSetUpFromGLFW D:\OpenGlSetUpFromGLFW\cmake-build-debug D:\OpenGlSetUpFromGLFW\cmake-build-debug D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles\OpenGlSetUpFromGLFW.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/OpenGlSetUpFromGLFW.dir/depend
 

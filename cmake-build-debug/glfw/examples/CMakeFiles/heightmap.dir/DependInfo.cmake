@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Merij/Downloads/ClionOpenGLSetUp-Windows-master/OpenGlSetUpFromGLFW/glfw/deps/glad.c" "glfw/examples/CMakeFiles/heightmap.dir/__/deps/glad.c.obj" "gcc" "glfw/examples/CMakeFiles/heightmap.dir/__/deps/glad.c.obj.d"
-  "C:/Users/Merij/Downloads/ClionOpenGLSetUp-Windows-master/OpenGlSetUpFromGLFW/glfw/examples/heightmap.c" "glfw/examples/CMakeFiles/heightmap.dir/heightmap.c.obj" "gcc" "glfw/examples/CMakeFiles/heightmap.dir/heightmap.c.obj.d"
+  "D:/OpenGlSetUpFromGLFW/glfw/deps/glad.c" "glfw/examples/CMakeFiles/heightmap.dir/__/deps/glad.c.obj" "gcc" "glfw/examples/CMakeFiles/heightmap.dir/__/deps/glad.c.obj.d"
+  "D:/OpenGlSetUpFromGLFW/glfw/examples/heightmap.c" "glfw/examples/CMakeFiles/heightmap.dir/heightmap.c.obj" "gcc" "glfw/examples/CMakeFiles/heightmap.dir/heightmap.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

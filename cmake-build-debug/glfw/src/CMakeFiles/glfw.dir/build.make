@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\cmake\win\x64\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\Merij\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\cmake\win\x64\bin\cmake.exe -E rm -f
+RM = C:\Users\Merij\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW
+CMAKE_SOURCE_DIR = D:\OpenGlSetUpFromGLFW
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug
+CMAKE_BINARY_DIR = D:\OpenGlSetUpFromGLFW\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include glfw/src/CMakeFiles/glfw.dir/depend.make
@@ -70,183 +70,183 @@ include glfw/src/CMakeFiles/glfw.dir/flags.make
 
 glfw/src/CMakeFiles/glfw.dir/context.c.obj: glfw/src/CMakeFiles/glfw.dir/flags.make
 glfw/src/CMakeFiles/glfw.dir/context.c.obj: glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-glfw/src/CMakeFiles/glfw.dir/context.c.obj: C:/Users/Merij/Downloads/ClionOpenGLSetUp-Windows-master/OpenGlSetUpFromGLFW/glfw/src/context.c
+glfw/src/CMakeFiles/glfw.dir/context.c.obj: D:/OpenGlSetUpFromGLFW/glfw/src/context.c
 glfw/src/CMakeFiles/glfw.dir/context.c.obj: glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object glfw/src/CMakeFiles/glfw.dir/context.c.obj"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/src/CMakeFiles/glfw.dir/context.c.obj -MF CMakeFiles\glfw.dir\context.c.obj.d -o CMakeFiles\glfw.dir\context.c.obj -c C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\src\context.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object glfw/src/CMakeFiles/glfw.dir/context.c.obj"
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/src/CMakeFiles/glfw.dir/context.c.obj -MF CMakeFiles\glfw.dir\context.c.obj.d -o CMakeFiles\glfw.dir\context.c.obj -c D:\OpenGlSetUpFromGLFW\glfw\src\context.c
 
 glfw/src/CMakeFiles/glfw.dir/context.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/context.c.i"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\src\context.c > CMakeFiles\glfw.dir\context.c.i
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\OpenGlSetUpFromGLFW\glfw\src\context.c > CMakeFiles\glfw.dir\context.c.i
 
 glfw/src/CMakeFiles/glfw.dir/context.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/context.c.s"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\src\context.c -o CMakeFiles\glfw.dir\context.c.s
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\OpenGlSetUpFromGLFW\glfw\src\context.c -o CMakeFiles\glfw.dir\context.c.s
 
 glfw/src/CMakeFiles/glfw.dir/init.c.obj: glfw/src/CMakeFiles/glfw.dir/flags.make
 glfw/src/CMakeFiles/glfw.dir/init.c.obj: glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-glfw/src/CMakeFiles/glfw.dir/init.c.obj: C:/Users/Merij/Downloads/ClionOpenGLSetUp-Windows-master/OpenGlSetUpFromGLFW/glfw/src/init.c
+glfw/src/CMakeFiles/glfw.dir/init.c.obj: D:/OpenGlSetUpFromGLFW/glfw/src/init.c
 glfw/src/CMakeFiles/glfw.dir/init.c.obj: glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object glfw/src/CMakeFiles/glfw.dir/init.c.obj"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/src/CMakeFiles/glfw.dir/init.c.obj -MF CMakeFiles\glfw.dir\init.c.obj.d -o CMakeFiles\glfw.dir\init.c.obj -c C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\src\init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object glfw/src/CMakeFiles/glfw.dir/init.c.obj"
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/src/CMakeFiles/glfw.dir/init.c.obj -MF CMakeFiles\glfw.dir\init.c.obj.d -o CMakeFiles\glfw.dir\init.c.obj -c D:\OpenGlSetUpFromGLFW\glfw\src\init.c
 
 glfw/src/CMakeFiles/glfw.dir/init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/init.c.i"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\src\init.c > CMakeFiles\glfw.dir\init.c.i
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\OpenGlSetUpFromGLFW\glfw\src\init.c > CMakeFiles\glfw.dir\init.c.i
 
 glfw/src/CMakeFiles/glfw.dir/init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/init.c.s"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\src\init.c -o CMakeFiles\glfw.dir\init.c.s
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\OpenGlSetUpFromGLFW\glfw\src\init.c -o CMakeFiles\glfw.dir\init.c.s
 
 glfw/src/CMakeFiles/glfw.dir/input.c.obj: glfw/src/CMakeFiles/glfw.dir/flags.make
 glfw/src/CMakeFiles/glfw.dir/input.c.obj: glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-glfw/src/CMakeFiles/glfw.dir/input.c.obj: C:/Users/Merij/Downloads/ClionOpenGLSetUp-Windows-master/OpenGlSetUpFromGLFW/glfw/src/input.c
+glfw/src/CMakeFiles/glfw.dir/input.c.obj: D:/OpenGlSetUpFromGLFW/glfw/src/input.c
 glfw/src/CMakeFiles/glfw.dir/input.c.obj: glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object glfw/src/CMakeFiles/glfw.dir/input.c.obj"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/src/CMakeFiles/glfw.dir/input.c.obj -MF CMakeFiles\glfw.dir\input.c.obj.d -o CMakeFiles\glfw.dir\input.c.obj -c C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\src\input.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object glfw/src/CMakeFiles/glfw.dir/input.c.obj"
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/src/CMakeFiles/glfw.dir/input.c.obj -MF CMakeFiles\glfw.dir\input.c.obj.d -o CMakeFiles\glfw.dir\input.c.obj -c D:\OpenGlSetUpFromGLFW\glfw\src\input.c
 
 glfw/src/CMakeFiles/glfw.dir/input.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/input.c.i"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\src\input.c > CMakeFiles\glfw.dir\input.c.i
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\OpenGlSetUpFromGLFW\glfw\src\input.c > CMakeFiles\glfw.dir\input.c.i
 
 glfw/src/CMakeFiles/glfw.dir/input.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/input.c.s"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\src\input.c -o CMakeFiles\glfw.dir\input.c.s
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\OpenGlSetUpFromGLFW\glfw\src\input.c -o CMakeFiles\glfw.dir\input.c.s
 
 glfw/src/CMakeFiles/glfw.dir/monitor.c.obj: glfw/src/CMakeFiles/glfw.dir/flags.make
 glfw/src/CMakeFiles/glfw.dir/monitor.c.obj: glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-glfw/src/CMakeFiles/glfw.dir/monitor.c.obj: C:/Users/Merij/Downloads/ClionOpenGLSetUp-Windows-master/OpenGlSetUpFromGLFW/glfw/src/monitor.c
+glfw/src/CMakeFiles/glfw.dir/monitor.c.obj: D:/OpenGlSetUpFromGLFW/glfw/src/monitor.c
 glfw/src/CMakeFiles/glfw.dir/monitor.c.obj: glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object glfw/src/CMakeFiles/glfw.dir/monitor.c.obj"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/src/CMakeFiles/glfw.dir/monitor.c.obj -MF CMakeFiles\glfw.dir\monitor.c.obj.d -o CMakeFiles\glfw.dir\monitor.c.obj -c C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\src\monitor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object glfw/src/CMakeFiles/glfw.dir/monitor.c.obj"
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/src/CMakeFiles/glfw.dir/monitor.c.obj -MF CMakeFiles\glfw.dir\monitor.c.obj.d -o CMakeFiles\glfw.dir\monitor.c.obj -c D:\OpenGlSetUpFromGLFW\glfw\src\monitor.c
 
 glfw/src/CMakeFiles/glfw.dir/monitor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/monitor.c.i"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\src\monitor.c > CMakeFiles\glfw.dir\monitor.c.i
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\OpenGlSetUpFromGLFW\glfw\src\monitor.c > CMakeFiles\glfw.dir\monitor.c.i
 
 glfw/src/CMakeFiles/glfw.dir/monitor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/monitor.c.s"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\src\monitor.c -o CMakeFiles\glfw.dir\monitor.c.s
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\OpenGlSetUpFromGLFW\glfw\src\monitor.c -o CMakeFiles\glfw.dir\monitor.c.s
 
 glfw/src/CMakeFiles/glfw.dir/window.c.obj: glfw/src/CMakeFiles/glfw.dir/flags.make
 glfw/src/CMakeFiles/glfw.dir/window.c.obj: glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-glfw/src/CMakeFiles/glfw.dir/window.c.obj: C:/Users/Merij/Downloads/ClionOpenGLSetUp-Windows-master/OpenGlSetUpFromGLFW/glfw/src/window.c
+glfw/src/CMakeFiles/glfw.dir/window.c.obj: D:/OpenGlSetUpFromGLFW/glfw/src/window.c
 glfw/src/CMakeFiles/glfw.dir/window.c.obj: glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object glfw/src/CMakeFiles/glfw.dir/window.c.obj"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/src/CMakeFiles/glfw.dir/window.c.obj -MF CMakeFiles\glfw.dir\window.c.obj.d -o CMakeFiles\glfw.dir\window.c.obj -c C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\src\window.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object glfw/src/CMakeFiles/glfw.dir/window.c.obj"
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/src/CMakeFiles/glfw.dir/window.c.obj -MF CMakeFiles\glfw.dir\window.c.obj.d -o CMakeFiles\glfw.dir\window.c.obj -c D:\OpenGlSetUpFromGLFW\glfw\src\window.c
 
 glfw/src/CMakeFiles/glfw.dir/window.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/window.c.i"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\src\window.c > CMakeFiles\glfw.dir\window.c.i
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\OpenGlSetUpFromGLFW\glfw\src\window.c > CMakeFiles\glfw.dir\window.c.i
 
 glfw/src/CMakeFiles/glfw.dir/window.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/window.c.s"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\src\window.c -o CMakeFiles\glfw.dir\window.c.s
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\OpenGlSetUpFromGLFW\glfw\src\window.c -o CMakeFiles\glfw.dir\window.c.s
 
 glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj: glfw/src/CMakeFiles/glfw.dir/flags.make
 glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj: glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj: C:/Users/Merij/Downloads/ClionOpenGLSetUp-Windows-master/OpenGlSetUpFromGLFW/glfw/src/win32_init.c
+glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj: D:/OpenGlSetUpFromGLFW/glfw/src/win32_init.c
 glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj: glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj -MF CMakeFiles\glfw.dir\win32_init.c.obj.d -o CMakeFiles\glfw.dir\win32_init.c.obj -c C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\src\win32_init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj"
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj -MF CMakeFiles\glfw.dir\win32_init.c.obj.d -o CMakeFiles\glfw.dir\win32_init.c.obj -c D:\OpenGlSetUpFromGLFW\glfw\src\win32_init.c
 
 glfw/src/CMakeFiles/glfw.dir/win32_init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/win32_init.c.i"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\src\win32_init.c > CMakeFiles\glfw.dir\win32_init.c.i
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\OpenGlSetUpFromGLFW\glfw\src\win32_init.c > CMakeFiles\glfw.dir\win32_init.c.i
 
 glfw/src/CMakeFiles/glfw.dir/win32_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/win32_init.c.s"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\src\win32_init.c -o CMakeFiles\glfw.dir\win32_init.c.s
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\OpenGlSetUpFromGLFW\glfw\src\win32_init.c -o CMakeFiles\glfw.dir\win32_init.c.s
 
 glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: glfw/src/CMakeFiles/glfw.dir/flags.make
 glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: C:/Users/Merij/Downloads/ClionOpenGLSetUp-Windows-master/OpenGlSetUpFromGLFW/glfw/src/win32_monitor.c
+glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: D:/OpenGlSetUpFromGLFW/glfw/src/win32_monitor.c
 glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj -MF CMakeFiles\glfw.dir\win32_monitor.c.obj.d -o CMakeFiles\glfw.dir\win32_monitor.c.obj -c C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\src\win32_monitor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj"
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj -MF CMakeFiles\glfw.dir\win32_monitor.c.obj.d -o CMakeFiles\glfw.dir\win32_monitor.c.obj -c D:\OpenGlSetUpFromGLFW\glfw\src\win32_monitor.c
 
 glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/win32_monitor.c.i"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\src\win32_monitor.c > CMakeFiles\glfw.dir\win32_monitor.c.i
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\OpenGlSetUpFromGLFW\glfw\src\win32_monitor.c > CMakeFiles\glfw.dir\win32_monitor.c.i
 
 glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/win32_monitor.c.s"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\src\win32_monitor.c -o CMakeFiles\glfw.dir\win32_monitor.c.s
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\OpenGlSetUpFromGLFW\glfw\src\win32_monitor.c -o CMakeFiles\glfw.dir\win32_monitor.c.s
 
 glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj: glfw/src/CMakeFiles/glfw.dir/flags.make
 glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj: glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj: C:/Users/Merij/Downloads/ClionOpenGLSetUp-Windows-master/OpenGlSetUpFromGLFW/glfw/src/win32_time.c
+glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj: D:/OpenGlSetUpFromGLFW/glfw/src/win32_time.c
 glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj: glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj -MF CMakeFiles\glfw.dir\win32_time.c.obj.d -o CMakeFiles\glfw.dir\win32_time.c.obj -c C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\src\win32_time.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj"
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj -MF CMakeFiles\glfw.dir\win32_time.c.obj.d -o CMakeFiles\glfw.dir\win32_time.c.obj -c D:\OpenGlSetUpFromGLFW\glfw\src\win32_time.c
 
 glfw/src/CMakeFiles/glfw.dir/win32_time.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/win32_time.c.i"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\src\win32_time.c > CMakeFiles\glfw.dir\win32_time.c.i
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\OpenGlSetUpFromGLFW\glfw\src\win32_time.c > CMakeFiles\glfw.dir\win32_time.c.i
 
 glfw/src/CMakeFiles/glfw.dir/win32_time.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/win32_time.c.s"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\src\win32_time.c -o CMakeFiles\glfw.dir\win32_time.c.s
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\OpenGlSetUpFromGLFW\glfw\src\win32_time.c -o CMakeFiles\glfw.dir\win32_time.c.s
 
 glfw/src/CMakeFiles/glfw.dir/win32_tls.c.obj: glfw/src/CMakeFiles/glfw.dir/flags.make
 glfw/src/CMakeFiles/glfw.dir/win32_tls.c.obj: glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-glfw/src/CMakeFiles/glfw.dir/win32_tls.c.obj: C:/Users/Merij/Downloads/ClionOpenGLSetUp-Windows-master/OpenGlSetUpFromGLFW/glfw/src/win32_tls.c
+glfw/src/CMakeFiles/glfw.dir/win32_tls.c.obj: D:/OpenGlSetUpFromGLFW/glfw/src/win32_tls.c
 glfw/src/CMakeFiles/glfw.dir/win32_tls.c.obj: glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object glfw/src/CMakeFiles/glfw.dir/win32_tls.c.obj"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/src/CMakeFiles/glfw.dir/win32_tls.c.obj -MF CMakeFiles\glfw.dir\win32_tls.c.obj.d -o CMakeFiles\glfw.dir\win32_tls.c.obj -c C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\src\win32_tls.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object glfw/src/CMakeFiles/glfw.dir/win32_tls.c.obj"
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/src/CMakeFiles/glfw.dir/win32_tls.c.obj -MF CMakeFiles\glfw.dir\win32_tls.c.obj.d -o CMakeFiles\glfw.dir\win32_tls.c.obj -c D:\OpenGlSetUpFromGLFW\glfw\src\win32_tls.c
 
 glfw/src/CMakeFiles/glfw.dir/win32_tls.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/win32_tls.c.i"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\src\win32_tls.c > CMakeFiles\glfw.dir\win32_tls.c.i
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\OpenGlSetUpFromGLFW\glfw\src\win32_tls.c > CMakeFiles\glfw.dir\win32_tls.c.i
 
 glfw/src/CMakeFiles/glfw.dir/win32_tls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/win32_tls.c.s"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\src\win32_tls.c -o CMakeFiles\glfw.dir\win32_tls.c.s
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\OpenGlSetUpFromGLFW\glfw\src\win32_tls.c -o CMakeFiles\glfw.dir\win32_tls.c.s
 
 glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj: glfw/src/CMakeFiles/glfw.dir/flags.make
 glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj: glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj: C:/Users/Merij/Downloads/ClionOpenGLSetUp-Windows-master/OpenGlSetUpFromGLFW/glfw/src/win32_window.c
+glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj: D:/OpenGlSetUpFromGLFW/glfw/src/win32_window.c
 glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj: glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj -MF CMakeFiles\glfw.dir\win32_window.c.obj.d -o CMakeFiles\glfw.dir\win32_window.c.obj -c C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\src\win32_window.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj"
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj -MF CMakeFiles\glfw.dir\win32_window.c.obj.d -o CMakeFiles\glfw.dir\win32_window.c.obj -c D:\OpenGlSetUpFromGLFW\glfw\src\win32_window.c
 
 glfw/src/CMakeFiles/glfw.dir/win32_window.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/win32_window.c.i"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\src\win32_window.c > CMakeFiles\glfw.dir\win32_window.c.i
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\OpenGlSetUpFromGLFW\glfw\src\win32_window.c > CMakeFiles\glfw.dir\win32_window.c.i
 
 glfw/src/CMakeFiles/glfw.dir/win32_window.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/win32_window.c.s"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\src\win32_window.c -o CMakeFiles\glfw.dir\win32_window.c.s
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\OpenGlSetUpFromGLFW\glfw\src\win32_window.c -o CMakeFiles\glfw.dir\win32_window.c.s
 
 glfw/src/CMakeFiles/glfw.dir/winmm_joystick.c.obj: glfw/src/CMakeFiles/glfw.dir/flags.make
 glfw/src/CMakeFiles/glfw.dir/winmm_joystick.c.obj: glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-glfw/src/CMakeFiles/glfw.dir/winmm_joystick.c.obj: C:/Users/Merij/Downloads/ClionOpenGLSetUp-Windows-master/OpenGlSetUpFromGLFW/glfw/src/winmm_joystick.c
+glfw/src/CMakeFiles/glfw.dir/winmm_joystick.c.obj: D:/OpenGlSetUpFromGLFW/glfw/src/winmm_joystick.c
 glfw/src/CMakeFiles/glfw.dir/winmm_joystick.c.obj: glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object glfw/src/CMakeFiles/glfw.dir/winmm_joystick.c.obj"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/src/CMakeFiles/glfw.dir/winmm_joystick.c.obj -MF CMakeFiles\glfw.dir\winmm_joystick.c.obj.d -o CMakeFiles\glfw.dir\winmm_joystick.c.obj -c C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\src\winmm_joystick.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object glfw/src/CMakeFiles/glfw.dir/winmm_joystick.c.obj"
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/src/CMakeFiles/glfw.dir/winmm_joystick.c.obj -MF CMakeFiles\glfw.dir\winmm_joystick.c.obj.d -o CMakeFiles\glfw.dir\winmm_joystick.c.obj -c D:\OpenGlSetUpFromGLFW\glfw\src\winmm_joystick.c
 
 glfw/src/CMakeFiles/glfw.dir/winmm_joystick.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/winmm_joystick.c.i"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\src\winmm_joystick.c > CMakeFiles\glfw.dir\winmm_joystick.c.i
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\OpenGlSetUpFromGLFW\glfw\src\winmm_joystick.c > CMakeFiles\glfw.dir\winmm_joystick.c.i
 
 glfw/src/CMakeFiles/glfw.dir/winmm_joystick.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/winmm_joystick.c.s"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\src\winmm_joystick.c -o CMakeFiles\glfw.dir\winmm_joystick.c.s
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\OpenGlSetUpFromGLFW\glfw\src\winmm_joystick.c -o CMakeFiles\glfw.dir\winmm_joystick.c.s
 
 glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj: glfw/src/CMakeFiles/glfw.dir/flags.make
 glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj: glfw/src/CMakeFiles/glfw.dir/includes_C.rsp
-glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C:/Users/Merij/Downloads/ClionOpenGLSetUp-Windows-master/OpenGlSetUpFromGLFW/glfw/src/wgl_context.c
+glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj: D:/OpenGlSetUpFromGLFW/glfw/src/wgl_context.c
 glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj: glfw/src/CMakeFiles/glfw.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj -MF CMakeFiles\glfw.dir\wgl_context.c.obj.d -o CMakeFiles\glfw.dir\wgl_context.c.obj -c C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\src\wgl_context.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj"
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj -MF CMakeFiles\glfw.dir\wgl_context.c.obj.d -o CMakeFiles\glfw.dir\wgl_context.c.obj -c D:\OpenGlSetUpFromGLFW\glfw\src\wgl_context.c
 
 glfw/src/CMakeFiles/glfw.dir/wgl_context.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/glfw.dir/wgl_context.c.i"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\src\wgl_context.c > CMakeFiles\glfw.dir\wgl_context.c.i
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\OpenGlSetUpFromGLFW\glfw\src\wgl_context.c > CMakeFiles\glfw.dir\wgl_context.c.i
 
 glfw/src/CMakeFiles/glfw.dir/wgl_context.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/glfw.dir/wgl_context.c.s"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\src\wgl_context.c -o CMakeFiles\glfw.dir\wgl_context.c.s
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\OpenGlSetUpFromGLFW\glfw\src\wgl_context.c -o CMakeFiles\glfw.dir\wgl_context.c.s
 
 # Object files for target glfw
 glfw_OBJECTS = \
@@ -280,19 +280,19 @@ glfw/src/libglfw3.a: glfw/src/CMakeFiles/glfw.dir/winmm_joystick.c.obj
 glfw/src/libglfw3.a: glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj
 glfw/src/libglfw3.a: glfw/src/CMakeFiles/glfw.dir/build.make
 glfw/src/libglfw3.a: glfw/src/CMakeFiles/glfw.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking C static library libglfw3.a"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && $(CMAKE_COMMAND) -P CMakeFiles\glfw.dir\cmake_clean_target.cmake
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\glfw.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking C static library libglfw3.a"
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && $(CMAKE_COMMAND) -P CMakeFiles\glfw.dir\cmake_clean_target.cmake
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\glfw.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 glfw/src/CMakeFiles/glfw.dir/build: glfw/src/libglfw3.a
 .PHONY : glfw/src/CMakeFiles/glfw.dir/build
 
 glfw/src/CMakeFiles/glfw.dir/clean:
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && $(CMAKE_COMMAND) -P CMakeFiles\glfw.dir\cmake_clean.cmake
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src && $(CMAKE_COMMAND) -P CMakeFiles\glfw.dir\cmake_clean.cmake
 .PHONY : glfw/src/CMakeFiles/glfw.dir/clean
 
 glfw/src/CMakeFiles/glfw.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\src C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src\CMakeFiles\glfw.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\OpenGlSetUpFromGLFW D:\OpenGlSetUpFromGLFW\glfw\src D:\OpenGlSetUpFromGLFW\cmake-build-debug D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\src\CMakeFiles\glfw.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : glfw/src/CMakeFiles/glfw.dir/depend
 

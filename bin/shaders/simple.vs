@@ -11,8 +11,7 @@ out vec3 color;
 void main()
 {
 	vec3 position = a_position;
-
-//	position.y += sin(position.x * time);
+	//position.y += sin(position.x * time);
 	color = a_color;
 	gl_Position = modelViewProjectionMatrix * vec4(position,1);
 }

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Merij/Downloads/ClionOpenGLSetUp-Windows-master/OpenGlSetUpFromGLFW/glfw/tests/cursor.c" "glfw/tests/CMakeFiles/cursor.dir/cursor.c.obj" "gcc" "glfw/tests/CMakeFiles/cursor.dir/cursor.c.obj.d"
+  "D:/OpenGlSetUpFromGLFW/glfw/tests/cursor.c" "glfw/tests/CMakeFiles/cursor.dir/cursor.c.obj" "gcc" "glfw/tests/CMakeFiles/cursor.dir/cursor.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

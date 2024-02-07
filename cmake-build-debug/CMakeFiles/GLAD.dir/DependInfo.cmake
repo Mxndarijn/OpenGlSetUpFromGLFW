@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Merij/Downloads/ClionOpenGLSetUp-Windows-master/OpenGlSetUpFromGLFW/src/glad.c" "CMakeFiles/GLAD.dir/src/glad.c.obj" "gcc" "CMakeFiles/GLAD.dir/src/glad.c.obj.d"
+  "D:/OpenGlSetUpFromGLFW/src/glad.c" "CMakeFiles/GLAD.dir/src/glad.c.obj" "gcc" "CMakeFiles/GLAD.dir/src/glad.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

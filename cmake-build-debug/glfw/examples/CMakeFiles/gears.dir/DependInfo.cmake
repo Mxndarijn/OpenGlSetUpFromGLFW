@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Merij/Downloads/ClionOpenGLSetUp-Windows-master/OpenGlSetUpFromGLFW/glfw/examples/gears.c" "glfw/examples/CMakeFiles/gears.dir/gears.c.obj" "gcc" "glfw/examples/CMakeFiles/gears.dir/gears.c.obj.d"
+  "D:/OpenGlSetUpFromGLFW/glfw/examples/gears.c" "glfw/examples/CMakeFiles/gears.dir/gears.c.obj" "gcc" "glfw/examples/CMakeFiles/gears.dir/gears.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

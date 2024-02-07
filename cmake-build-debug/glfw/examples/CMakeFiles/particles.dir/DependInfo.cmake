@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Merij/Downloads/ClionOpenGLSetUp-Windows-master/OpenGlSetUpFromGLFW/glfw/deps/getopt.c" "glfw/examples/CMakeFiles/particles.dir/__/deps/getopt.c.obj" "gcc" "glfw/examples/CMakeFiles/particles.dir/__/deps/getopt.c.obj.d"
-  "C:/Users/Merij/Downloads/ClionOpenGLSetUp-Windows-master/OpenGlSetUpFromGLFW/glfw/deps/tinycthread.c" "glfw/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.obj" "gcc" "glfw/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.obj.d"
-  "C:/Users/Merij/Downloads/ClionOpenGLSetUp-Windows-master/OpenGlSetUpFromGLFW/glfw/examples/particles.c" "glfw/examples/CMakeFiles/particles.dir/particles.c.obj" "gcc" "glfw/examples/CMakeFiles/particles.dir/particles.c.obj.d"
+  "D:/OpenGlSetUpFromGLFW/glfw/deps/getopt.c" "glfw/examples/CMakeFiles/particles.dir/__/deps/getopt.c.obj" "gcc" "glfw/examples/CMakeFiles/particles.dir/__/deps/getopt.c.obj.d"
+  "D:/OpenGlSetUpFromGLFW/glfw/deps/tinycthread.c" "glfw/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.obj" "gcc" "glfw/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.obj.d"
+  "D:/OpenGlSetUpFromGLFW/glfw/examples/particles.c" "glfw/examples/CMakeFiles/particles.dir/particles.c.obj" "gcc" "glfw/examples/CMakeFiles/particles.dir/particles.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

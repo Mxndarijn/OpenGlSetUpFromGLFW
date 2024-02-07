@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
-  "C:/Users/Merij/Downloads/ClionOpenGLSetUp-Windows-master/OpenGlSetUpFromGLFW/bin/OpenGlSetUpFromGLFW.exe"
-  "C:/Users/Merij/Downloads/ClionOpenGLSetUp-Windows-master/OpenGlSetUpFromGLFW/bin/OpenGlSetUpFromGLFW.exe.manifest"
-  "C:/Users/Merij/Downloads/ClionOpenGLSetUp-Windows-master/OpenGlSetUpFromGLFW/bin/OpenGlSetUpFromGLFW.pdb"
   "CMakeFiles/OpenGlSetUpFromGLFW.dir/main.cpp.obj"
   "CMakeFiles/OpenGlSetUpFromGLFW.dir/main.cpp.obj.d"
+  "D:/OpenGlSetUpFromGLFW/bin/OpenGlSetUpFromGLFW.exe"
+  "D:/OpenGlSetUpFromGLFW/bin/OpenGlSetUpFromGLFW.exe.manifest"
+  "D:/OpenGlSetUpFromGLFW/bin/OpenGlSetUpFromGLFW.pdb"
   "libOpenGlSetUpFromGLFW.dll.a"
 )
 

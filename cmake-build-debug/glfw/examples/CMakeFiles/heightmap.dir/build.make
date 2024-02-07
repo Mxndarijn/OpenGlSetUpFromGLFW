@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\cmake\win\x64\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\Merij\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\cmake\win\x64\bin\cmake.exe -E rm -f
+RM = C:\Users\Merij\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW
+CMAKE_SOURCE_DIR = D:\OpenGlSetUpFromGLFW
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug
+CMAKE_BINARY_DIR = D:\OpenGlSetUpFromGLFW\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include glfw/examples/CMakeFiles/heightmap.dir/depend.make
@@ -70,33 +70,33 @@ include glfw/examples/CMakeFiles/heightmap.dir/flags.make
 
 glfw/examples/CMakeFiles/heightmap.dir/heightmap.c.obj: glfw/examples/CMakeFiles/heightmap.dir/flags.make
 glfw/examples/CMakeFiles/heightmap.dir/heightmap.c.obj: glfw/examples/CMakeFiles/heightmap.dir/includes_C.rsp
-glfw/examples/CMakeFiles/heightmap.dir/heightmap.c.obj: C:/Users/Merij/Downloads/ClionOpenGLSetUp-Windows-master/OpenGlSetUpFromGLFW/glfw/examples/heightmap.c
+glfw/examples/CMakeFiles/heightmap.dir/heightmap.c.obj: D:/OpenGlSetUpFromGLFW/glfw/examples/heightmap.c
 glfw/examples/CMakeFiles/heightmap.dir/heightmap.c.obj: glfw/examples/CMakeFiles/heightmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object glfw/examples/CMakeFiles/heightmap.dir/heightmap.c.obj"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\examples && C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/examples/CMakeFiles/heightmap.dir/heightmap.c.obj -MF CMakeFiles\heightmap.dir\heightmap.c.obj.d -o CMakeFiles\heightmap.dir\heightmap.c.obj -c C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\examples\heightmap.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object glfw/examples/CMakeFiles/heightmap.dir/heightmap.c.obj"
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\examples && C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/examples/CMakeFiles/heightmap.dir/heightmap.c.obj -MF CMakeFiles\heightmap.dir\heightmap.c.obj.d -o CMakeFiles\heightmap.dir\heightmap.c.obj -c D:\OpenGlSetUpFromGLFW\glfw\examples\heightmap.c
 
 glfw/examples/CMakeFiles/heightmap.dir/heightmap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/heightmap.dir/heightmap.c.i"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\examples && C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\examples\heightmap.c > CMakeFiles\heightmap.dir\heightmap.c.i
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\examples && C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\OpenGlSetUpFromGLFW\glfw\examples\heightmap.c > CMakeFiles\heightmap.dir\heightmap.c.i
 
 glfw/examples/CMakeFiles/heightmap.dir/heightmap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/heightmap.dir/heightmap.c.s"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\examples && C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\examples\heightmap.c -o CMakeFiles\heightmap.dir\heightmap.c.s
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\examples && C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\OpenGlSetUpFromGLFW\glfw\examples\heightmap.c -o CMakeFiles\heightmap.dir\heightmap.c.s
 
 glfw/examples/CMakeFiles/heightmap.dir/__/deps/glad.c.obj: glfw/examples/CMakeFiles/heightmap.dir/flags.make
 glfw/examples/CMakeFiles/heightmap.dir/__/deps/glad.c.obj: glfw/examples/CMakeFiles/heightmap.dir/includes_C.rsp
-glfw/examples/CMakeFiles/heightmap.dir/__/deps/glad.c.obj: C:/Users/Merij/Downloads/ClionOpenGLSetUp-Windows-master/OpenGlSetUpFromGLFW/glfw/deps/glad.c
+glfw/examples/CMakeFiles/heightmap.dir/__/deps/glad.c.obj: D:/OpenGlSetUpFromGLFW/glfw/deps/glad.c
 glfw/examples/CMakeFiles/heightmap.dir/__/deps/glad.c.obj: glfw/examples/CMakeFiles/heightmap.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object glfw/examples/CMakeFiles/heightmap.dir/__/deps/glad.c.obj"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\examples && C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/examples/CMakeFiles/heightmap.dir/__/deps/glad.c.obj -MF CMakeFiles\heightmap.dir\__\deps\glad.c.obj.d -o CMakeFiles\heightmap.dir\__\deps\glad.c.obj -c C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\deps\glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object glfw/examples/CMakeFiles/heightmap.dir/__/deps/glad.c.obj"
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\examples && C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/examples/CMakeFiles/heightmap.dir/__/deps/glad.c.obj -MF CMakeFiles\heightmap.dir\__\deps\glad.c.obj.d -o CMakeFiles\heightmap.dir\__\deps\glad.c.obj -c D:\OpenGlSetUpFromGLFW\glfw\deps\glad.c
 
 glfw/examples/CMakeFiles/heightmap.dir/__/deps/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/heightmap.dir/__/deps/glad.c.i"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\examples && C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\deps\glad.c > CMakeFiles\heightmap.dir\__\deps\glad.c.i
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\examples && C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\OpenGlSetUpFromGLFW\glfw\deps\glad.c > CMakeFiles\heightmap.dir\__\deps\glad.c.i
 
 glfw/examples/CMakeFiles/heightmap.dir/__/deps/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/heightmap.dir/__/deps/glad.c.s"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\examples && C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\deps\glad.c -o CMakeFiles\heightmap.dir\__\deps\glad.c.s
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\examples && C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\OpenGlSetUpFromGLFW\glfw\deps\glad.c -o CMakeFiles\heightmap.dir\__\deps\glad.c.s
 
 # Object files for target heightmap
 heightmap_OBJECTS = \
@@ -113,18 +113,18 @@ glfw/examples/heightmap.exe: glfw/src/libglfw3.a
 glfw/examples/heightmap.exe: glfw/examples/CMakeFiles/heightmap.dir/linkLibs.rsp
 glfw/examples/heightmap.exe: glfw/examples/CMakeFiles/heightmap.dir/objects1.rsp
 glfw/examples/heightmap.exe: glfw/examples/CMakeFiles/heightmap.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable heightmap.exe"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\heightmap.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable heightmap.exe"
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\heightmap.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 glfw/examples/CMakeFiles/heightmap.dir/build: glfw/examples/heightmap.exe
 .PHONY : glfw/examples/CMakeFiles/heightmap.dir/build
 
 glfw/examples/CMakeFiles/heightmap.dir/clean:
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\examples && $(CMAKE_COMMAND) -P CMakeFiles\heightmap.dir\cmake_clean.cmake
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\examples && $(CMAKE_COMMAND) -P CMakeFiles\heightmap.dir\cmake_clean.cmake
 .PHONY : glfw/examples/CMakeFiles/heightmap.dir/clean
 
 glfw/examples/CMakeFiles/heightmap.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\examples C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\examples C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\examples\CMakeFiles\heightmap.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\OpenGlSetUpFromGLFW D:\OpenGlSetUpFromGLFW\glfw\examples D:\OpenGlSetUpFromGLFW\cmake-build-debug D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\examples D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\examples\CMakeFiles\heightmap.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : glfw/examples/CMakeFiles/heightmap.dir/depend
 

@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\cmake\win\x64\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\Merij\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\cmake\win\x64\bin\cmake.exe -E rm -f
+RM = C:\Users\Merij\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW
+CMAKE_SOURCE_DIR = D:\OpenGlSetUpFromGLFW
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug
+CMAKE_BINARY_DIR = D:\OpenGlSetUpFromGLFW\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include glfw/tests/CMakeFiles/gamma.dir/depend.make
@@ -70,33 +70,33 @@ include glfw/tests/CMakeFiles/gamma.dir/flags.make
 
 glfw/tests/CMakeFiles/gamma.dir/gamma.c.obj: glfw/tests/CMakeFiles/gamma.dir/flags.make
 glfw/tests/CMakeFiles/gamma.dir/gamma.c.obj: glfw/tests/CMakeFiles/gamma.dir/includes_C.rsp
-glfw/tests/CMakeFiles/gamma.dir/gamma.c.obj: C:/Users/Merij/Downloads/ClionOpenGLSetUp-Windows-master/OpenGlSetUpFromGLFW/glfw/tests/gamma.c
+glfw/tests/CMakeFiles/gamma.dir/gamma.c.obj: D:/OpenGlSetUpFromGLFW/glfw/tests/gamma.c
 glfw/tests/CMakeFiles/gamma.dir/gamma.c.obj: glfw/tests/CMakeFiles/gamma.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object glfw/tests/CMakeFiles/gamma.dir/gamma.c.obj"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\tests && C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/tests/CMakeFiles/gamma.dir/gamma.c.obj -MF CMakeFiles\gamma.dir\gamma.c.obj.d -o CMakeFiles\gamma.dir\gamma.c.obj -c C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\tests\gamma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object glfw/tests/CMakeFiles/gamma.dir/gamma.c.obj"
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\tests && C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/tests/CMakeFiles/gamma.dir/gamma.c.obj -MF CMakeFiles\gamma.dir\gamma.c.obj.d -o CMakeFiles\gamma.dir\gamma.c.obj -c D:\OpenGlSetUpFromGLFW\glfw\tests\gamma.c
 
 glfw/tests/CMakeFiles/gamma.dir/gamma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/gamma.dir/gamma.c.i"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\tests && C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\tests\gamma.c > CMakeFiles\gamma.dir\gamma.c.i
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\tests && C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\OpenGlSetUpFromGLFW\glfw\tests\gamma.c > CMakeFiles\gamma.dir\gamma.c.i
 
 glfw/tests/CMakeFiles/gamma.dir/gamma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/gamma.dir/gamma.c.s"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\tests && C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\tests\gamma.c -o CMakeFiles\gamma.dir\gamma.c.s
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\tests && C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\OpenGlSetUpFromGLFW\glfw\tests\gamma.c -o CMakeFiles\gamma.dir\gamma.c.s
 
 glfw/tests/CMakeFiles/gamma.dir/__/deps/getopt.c.obj: glfw/tests/CMakeFiles/gamma.dir/flags.make
 glfw/tests/CMakeFiles/gamma.dir/__/deps/getopt.c.obj: glfw/tests/CMakeFiles/gamma.dir/includes_C.rsp
-glfw/tests/CMakeFiles/gamma.dir/__/deps/getopt.c.obj: C:/Users/Merij/Downloads/ClionOpenGLSetUp-Windows-master/OpenGlSetUpFromGLFW/glfw/deps/getopt.c
+glfw/tests/CMakeFiles/gamma.dir/__/deps/getopt.c.obj: D:/OpenGlSetUpFromGLFW/glfw/deps/getopt.c
 glfw/tests/CMakeFiles/gamma.dir/__/deps/getopt.c.obj: glfw/tests/CMakeFiles/gamma.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object glfw/tests/CMakeFiles/gamma.dir/__/deps/getopt.c.obj"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\tests && C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/tests/CMakeFiles/gamma.dir/__/deps/getopt.c.obj -MF CMakeFiles\gamma.dir\__\deps\getopt.c.obj.d -o CMakeFiles\gamma.dir\__\deps\getopt.c.obj -c C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\deps\getopt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object glfw/tests/CMakeFiles/gamma.dir/__/deps/getopt.c.obj"
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\tests && C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT glfw/tests/CMakeFiles/gamma.dir/__/deps/getopt.c.obj -MF CMakeFiles\gamma.dir\__\deps\getopt.c.obj.d -o CMakeFiles\gamma.dir\__\deps\getopt.c.obj -c D:\OpenGlSetUpFromGLFW\glfw\deps\getopt.c
 
 glfw/tests/CMakeFiles/gamma.dir/__/deps/getopt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/gamma.dir/__/deps/getopt.c.i"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\tests && C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\deps\getopt.c > CMakeFiles\gamma.dir\__\deps\getopt.c.i
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\tests && C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\OpenGlSetUpFromGLFW\glfw\deps\getopt.c > CMakeFiles\gamma.dir\__\deps\getopt.c.i
 
 glfw/tests/CMakeFiles/gamma.dir/__/deps/getopt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/gamma.dir/__/deps/getopt.c.s"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\tests && C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\deps\getopt.c -o CMakeFiles\gamma.dir\__\deps\getopt.c.s
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\tests && C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\OpenGlSetUpFromGLFW\glfw\deps\getopt.c -o CMakeFiles\gamma.dir\__\deps\getopt.c.s
 
 # Object files for target gamma
 gamma_OBJECTS = \
@@ -113,18 +113,18 @@ glfw/tests/gamma.exe: glfw/src/libglfw3.a
 glfw/tests/gamma.exe: glfw/tests/CMakeFiles/gamma.dir/linkLibs.rsp
 glfw/tests/gamma.exe: glfw/tests/CMakeFiles/gamma.dir/objects1.rsp
 glfw/tests/gamma.exe: glfw/tests/CMakeFiles/gamma.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable gamma.exe"
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\gamma.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable gamma.exe"
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\gamma.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 glfw/tests/CMakeFiles/gamma.dir/build: glfw/tests/gamma.exe
 .PHONY : glfw/tests/CMakeFiles/gamma.dir/build
 
 glfw/tests/CMakeFiles/gamma.dir/clean:
-	cd /d C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\tests && $(CMAKE_COMMAND) -P CMakeFiles\gamma.dir\cmake_clean.cmake
+	cd /d D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\tests && $(CMAKE_COMMAND) -P CMakeFiles\gamma.dir\cmake_clean.cmake
 .PHONY : glfw/tests/CMakeFiles/gamma.dir/clean
 
 glfw/tests/CMakeFiles/gamma.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\glfw\tests C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\tests C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\tests\CMakeFiles\gamma.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\OpenGlSetUpFromGLFW D:\OpenGlSetUpFromGLFW\glfw\tests D:\OpenGlSetUpFromGLFW\cmake-build-debug D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\tests D:\OpenGlSetUpFromGLFW\cmake-build-debug\glfw\tests\CMakeFiles\gamma.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : glfw/tests/CMakeFiles/gamma.dir/depend
 

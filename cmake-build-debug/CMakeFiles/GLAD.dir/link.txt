@@ -1,2 +1,2 @@
-C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\ar.exe qc libGLAD.a CMakeFiles/GLAD.dir/src/glad.c.obj
-C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\mingw\bin\ranlib.exe libGLAD.a
+C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\ar.exe qc libGLAD.a CMakeFiles/GLAD.dir/src/glad.c.obj
+C:\Users\Merij\AppData\Local\Programs\CLion\bin\mingw\bin\ranlib.exe libGLAD.a

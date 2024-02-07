@@ -44,19 +44,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\cmake\win\x64\bin\cmake.exe
+CMAKE_COMMAND = C:\Users\Merij\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\Merij\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\233.14015.92\bin\cmake\win\x64\bin\cmake.exe -E rm -f
+RM = C:\Users\Merij\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW
+CMAKE_SOURCE_DIR = D:\OpenGlSetUpFromGLFW
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug
+CMAKE_BINARY_DIR = D:\OpenGlSetUpFromGLFW\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -194,14 +194,14 @@ CMakeFiles/OpenGlSetUpFromGLFW.dir/all: CMakeFiles/GLAD.dir/all
 CMakeFiles/OpenGlSetUpFromGLFW.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGlSetUpFromGLFW.dir\build.make CMakeFiles/OpenGlSetUpFromGLFW.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OpenGlSetUpFromGLFW.dir\build.make CMakeFiles/OpenGlSetUpFromGLFW.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target OpenGlSetUpFromGLFW"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target OpenGlSetUpFromGLFW"
 .PHONY : CMakeFiles/OpenGlSetUpFromGLFW.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/OpenGlSetUpFromGLFW.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/OpenGlSetUpFromGLFW.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/OpenGlSetUpFromGLFW.dir/rule
 
 # Convenience name for target.
@@ -220,14 +220,14 @@ CMakeFiles/OpenGlSetUpFromGLFW.dir/clean:
 CMakeFiles/GLAD.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GLAD.dir\build.make CMakeFiles/GLAD.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GLAD.dir\build.make CMakeFiles/GLAD.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target GLAD"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target GLAD"
 .PHONY : CMakeFiles/GLAD.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/GLAD.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/GLAD.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/GLAD.dir/rule
 
 # Convenience name for target.
@@ -246,14 +246,14 @@ CMakeFiles/GLAD.dir/clean:
 glfw/CMakeFiles/uninstall.dir/all:
 	$(MAKE) $(MAKESILENT) -f glfw\CMakeFiles\uninstall.dir\build.make glfw/CMakeFiles/uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw\CMakeFiles\uninstall.dir\build.make glfw/CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : glfw/CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glfw/CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
 .PHONY : glfw/CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -272,14 +272,14 @@ glfw/CMakeFiles/uninstall.dir/clean:
 glfw/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) $(MAKESILENT) -f glfw\src\CMakeFiles\glfw.dir\build.make glfw/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw\src\CMakeFiles\glfw.dir\build.make glfw/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=23,24,25,26,27,28,29,30,31,32,33,34,35 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=23,24,25,26,27,28,29,30,31,32,33,34,35 "Built target glfw"
 .PHONY : glfw/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/src/CMakeFiles/glfw.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glfw/src/CMakeFiles/glfw.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
 .PHONY : glfw/src/CMakeFiles/glfw.dir/rule
 
 # Convenience name for target.
@@ -298,14 +298,14 @@ glfw/src/CMakeFiles/glfw.dir/clean:
 glfw/examples/CMakeFiles/boing.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw\examples\CMakeFiles\boing.dir\build.make glfw/examples/CMakeFiles/boing.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw\examples\CMakeFiles\boing.dir\build.make glfw/examples/CMakeFiles/boing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target boing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target boing"
 .PHONY : glfw/examples/CMakeFiles/boing.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/examples/CMakeFiles/boing.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glfw/examples/CMakeFiles/boing.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
 .PHONY : glfw/examples/CMakeFiles/boing.dir/rule
 
 # Convenience name for target.
@@ -324,14 +324,14 @@ glfw/examples/CMakeFiles/boing.dir/clean:
 glfw/examples/CMakeFiles/gears.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw\examples\CMakeFiles\gears.dir\build.make glfw/examples/CMakeFiles/gears.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw\examples\CMakeFiles\gears.dir\build.make glfw/examples/CMakeFiles/gears.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target gears"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target gears"
 .PHONY : glfw/examples/CMakeFiles/gears.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/examples/CMakeFiles/gears.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glfw/examples/CMakeFiles/gears.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
 .PHONY : glfw/examples/CMakeFiles/gears.dir/rule
 
 # Convenience name for target.
@@ -350,14 +350,14 @@ glfw/examples/CMakeFiles/gears.dir/clean:
 glfw/examples/CMakeFiles/heightmap.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw\examples\CMakeFiles\heightmap.dir\build.make glfw/examples/CMakeFiles/heightmap.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw\examples\CMakeFiles\heightmap.dir\build.make glfw/examples/CMakeFiles/heightmap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=39,40,41 "Built target heightmap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=39,40,41 "Built target heightmap"
 .PHONY : glfw/examples/CMakeFiles/heightmap.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/examples/CMakeFiles/heightmap.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glfw/examples/CMakeFiles/heightmap.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
 .PHONY : glfw/examples/CMakeFiles/heightmap.dir/rule
 
 # Convenience name for target.
@@ -376,14 +376,14 @@ glfw/examples/CMakeFiles/heightmap.dir/clean:
 glfw/examples/CMakeFiles/particles.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw\examples\CMakeFiles\particles.dir\build.make glfw/examples/CMakeFiles/particles.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw\examples\CMakeFiles\particles.dir\build.make glfw/examples/CMakeFiles/particles.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=53,54,55,56 "Built target particles"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=53,54,55,56 "Built target particles"
 .PHONY : glfw/examples/CMakeFiles/particles.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/examples/CMakeFiles/particles.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glfw/examples/CMakeFiles/particles.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
 .PHONY : glfw/examples/CMakeFiles/particles.dir/rule
 
 # Convenience name for target.
@@ -402,14 +402,14 @@ glfw/examples/CMakeFiles/particles.dir/clean:
 glfw/examples/CMakeFiles/simple.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw\examples\CMakeFiles\simple.dir\build.make glfw/examples/CMakeFiles/simple.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw\examples\CMakeFiles\simple.dir\build.make glfw/examples/CMakeFiles/simple.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=61,62 "Built target simple"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=61,62 "Built target simple"
 .PHONY : glfw/examples/CMakeFiles/simple.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/examples/CMakeFiles/simple.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glfw/examples/CMakeFiles/simple.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
 .PHONY : glfw/examples/CMakeFiles/simple.dir/rule
 
 # Convenience name for target.
@@ -428,14 +428,14 @@ glfw/examples/CMakeFiles/simple.dir/clean:
 glfw/examples/CMakeFiles/splitview.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw\examples\CMakeFiles\splitview.dir\build.make glfw/examples/CMakeFiles/splitview.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw\examples\CMakeFiles\splitview.dir\build.make glfw/examples/CMakeFiles/splitview.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=63,64 "Built target splitview"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=63,64 "Built target splitview"
 .PHONY : glfw/examples/CMakeFiles/splitview.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/examples/CMakeFiles/splitview.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glfw/examples/CMakeFiles/splitview.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
 .PHONY : glfw/examples/CMakeFiles/splitview.dir/rule
 
 # Convenience name for target.
@@ -454,14 +454,14 @@ glfw/examples/CMakeFiles/splitview.dir/clean:
 glfw/examples/CMakeFiles/wave.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw\examples\CMakeFiles\wave.dir\build.make glfw/examples/CMakeFiles/wave.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw\examples\CMakeFiles\wave.dir\build.make glfw/examples/CMakeFiles/wave.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=73,74 "Built target wave"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=73,74 "Built target wave"
 .PHONY : glfw/examples/CMakeFiles/wave.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/examples/CMakeFiles/wave.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glfw/examples/CMakeFiles/wave.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
 .PHONY : glfw/examples/CMakeFiles/wave.dir/rule
 
 # Convenience name for target.
@@ -480,14 +480,14 @@ glfw/examples/CMakeFiles/wave.dir/clean:
 glfw/tests/CMakeFiles/clipboard.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw\tests\CMakeFiles\clipboard.dir\build.make glfw/tests/CMakeFiles/clipboard.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw\tests\CMakeFiles\clipboard.dir\build.make glfw/tests/CMakeFiles/clipboard.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=7,8,9 "Built target clipboard"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=7,8,9 "Built target clipboard"
 .PHONY : glfw/tests/CMakeFiles/clipboard.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/tests/CMakeFiles/clipboard.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glfw/tests/CMakeFiles/clipboard.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
 .PHONY : glfw/tests/CMakeFiles/clipboard.dir/rule
 
 # Convenience name for target.
@@ -506,14 +506,14 @@ glfw/tests/CMakeFiles/clipboard.dir/clean:
 glfw/tests/CMakeFiles/events.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw\tests\CMakeFiles\events.dir\build.make glfw/tests/CMakeFiles/events.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw\tests\CMakeFiles\events.dir\build.make glfw/tests/CMakeFiles/events.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=15,16,17 "Built target events"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=15,16,17 "Built target events"
 .PHONY : glfw/tests/CMakeFiles/events.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/tests/CMakeFiles/events.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glfw/tests/CMakeFiles/events.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
 .PHONY : glfw/tests/CMakeFiles/events.dir/rule
 
 # Convenience name for target.
@@ -532,14 +532,14 @@ glfw/tests/CMakeFiles/events.dir/clean:
 glfw/tests/CMakeFiles/msaa.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw\tests\CMakeFiles\msaa.dir\build.make glfw/tests/CMakeFiles/msaa.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw\tests\CMakeFiles\msaa.dir\build.make glfw/tests/CMakeFiles/msaa.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=50,51,52 "Built target msaa"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=50,51,52 "Built target msaa"
 .PHONY : glfw/tests/CMakeFiles/msaa.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/tests/CMakeFiles/msaa.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glfw/tests/CMakeFiles/msaa.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
 .PHONY : glfw/tests/CMakeFiles/msaa.dir/rule
 
 # Convenience name for target.
@@ -558,14 +558,14 @@ glfw/tests/CMakeFiles/msaa.dir/clean:
 glfw/tests/CMakeFiles/gamma.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw\tests\CMakeFiles\gamma.dir\build.make glfw/tests/CMakeFiles/gamma.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw\tests\CMakeFiles\gamma.dir\build.make glfw/tests/CMakeFiles/gamma.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=18,19,20 "Built target gamma"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=18,19,20 "Built target gamma"
 .PHONY : glfw/tests/CMakeFiles/gamma.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/tests/CMakeFiles/gamma.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glfw/tests/CMakeFiles/gamma.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
 .PHONY : glfw/tests/CMakeFiles/gamma.dir/rule
 
 # Convenience name for target.
@@ -584,14 +584,14 @@ glfw/tests/CMakeFiles/gamma.dir/clean:
 glfw/tests/CMakeFiles/glfwinfo.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw\tests\CMakeFiles\glfwinfo.dir\build.make glfw/tests/CMakeFiles/glfwinfo.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw\tests\CMakeFiles\glfwinfo.dir\build.make glfw/tests/CMakeFiles/glfwinfo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=36,37,38 "Built target glfwinfo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=36,37,38 "Built target glfwinfo"
 .PHONY : glfw/tests/CMakeFiles/glfwinfo.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/tests/CMakeFiles/glfwinfo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glfw/tests/CMakeFiles/glfwinfo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
 .PHONY : glfw/tests/CMakeFiles/glfwinfo.dir/rule
 
 # Convenience name for target.
@@ -610,14 +610,14 @@ glfw/tests/CMakeFiles/glfwinfo.dir/clean:
 glfw/tests/CMakeFiles/iconify.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw\tests\CMakeFiles\iconify.dir\build.make glfw/tests/CMakeFiles/iconify.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw\tests\CMakeFiles\iconify.dir\build.make glfw/tests/CMakeFiles/iconify.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=42,43,44 "Built target iconify"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=42,43,44 "Built target iconify"
 .PHONY : glfw/tests/CMakeFiles/iconify.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/tests/CMakeFiles/iconify.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glfw/tests/CMakeFiles/iconify.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
 .PHONY : glfw/tests/CMakeFiles/iconify.dir/rule
 
 # Convenience name for target.
@@ -636,14 +636,14 @@ glfw/tests/CMakeFiles/iconify.dir/clean:
 glfw/tests/CMakeFiles/joysticks.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw\tests\CMakeFiles\joysticks.dir\build.make glfw/tests/CMakeFiles/joysticks.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw\tests\CMakeFiles\joysticks.dir\build.make glfw/tests/CMakeFiles/joysticks.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=45,46 "Built target joysticks"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=45,46 "Built target joysticks"
 .PHONY : glfw/tests/CMakeFiles/joysticks.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/tests/CMakeFiles/joysticks.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glfw/tests/CMakeFiles/joysticks.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
 .PHONY : glfw/tests/CMakeFiles/joysticks.dir/rule
 
 # Convenience name for target.
@@ -662,14 +662,14 @@ glfw/tests/CMakeFiles/joysticks.dir/clean:
 glfw/tests/CMakeFiles/monitors.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw\tests\CMakeFiles\monitors.dir\build.make glfw/tests/CMakeFiles/monitors.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw\tests\CMakeFiles\monitors.dir\build.make glfw/tests/CMakeFiles/monitors.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=47,48,49 "Built target monitors"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=47,48,49 "Built target monitors"
 .PHONY : glfw/tests/CMakeFiles/monitors.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/tests/CMakeFiles/monitors.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glfw/tests/CMakeFiles/monitors.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
 .PHONY : glfw/tests/CMakeFiles/monitors.dir/rule
 
 # Convenience name for target.
@@ -688,14 +688,14 @@ glfw/tests/CMakeFiles/monitors.dir/clean:
 glfw/tests/CMakeFiles/reopen.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw\tests\CMakeFiles\reopen.dir\build.make glfw/tests/CMakeFiles/reopen.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw\tests\CMakeFiles\reopen.dir\build.make glfw/tests/CMakeFiles/reopen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=57,58 "Built target reopen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=57,58 "Built target reopen"
 .PHONY : glfw/tests/CMakeFiles/reopen.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/tests/CMakeFiles/reopen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glfw/tests/CMakeFiles/reopen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
 .PHONY : glfw/tests/CMakeFiles/reopen.dir/rule
 
 # Convenience name for target.
@@ -714,14 +714,14 @@ glfw/tests/CMakeFiles/reopen.dir/clean:
 glfw/tests/CMakeFiles/cursor.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw\tests\CMakeFiles\cursor.dir\build.make glfw/tests/CMakeFiles/cursor.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw\tests\CMakeFiles\cursor.dir\build.make glfw/tests/CMakeFiles/cursor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=10,11 "Built target cursor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=10,11 "Built target cursor"
 .PHONY : glfw/tests/CMakeFiles/cursor.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/tests/CMakeFiles/cursor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glfw/tests/CMakeFiles/cursor.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
 .PHONY : glfw/tests/CMakeFiles/cursor.dir/rule
 
 # Convenience name for target.
@@ -740,14 +740,14 @@ glfw/tests/CMakeFiles/cursor.dir/clean:
 glfw/tests/CMakeFiles/empty.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw\tests\CMakeFiles\empty.dir\build.make glfw/tests/CMakeFiles/empty.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw\tests\CMakeFiles\empty.dir\build.make glfw/tests/CMakeFiles/empty.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=12,13,14 "Built target empty"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=12,13,14 "Built target empty"
 .PHONY : glfw/tests/CMakeFiles/empty.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/tests/CMakeFiles/empty.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glfw/tests/CMakeFiles/empty.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
 .PHONY : glfw/tests/CMakeFiles/empty.dir/rule
 
 # Convenience name for target.
@@ -766,14 +766,14 @@ glfw/tests/CMakeFiles/empty.dir/clean:
 glfw/tests/CMakeFiles/sharing.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw\tests\CMakeFiles\sharing.dir\build.make glfw/tests/CMakeFiles/sharing.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw\tests\CMakeFiles\sharing.dir\build.make glfw/tests/CMakeFiles/sharing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=59,60 "Built target sharing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=59,60 "Built target sharing"
 .PHONY : glfw/tests/CMakeFiles/sharing.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/tests/CMakeFiles/sharing.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glfw/tests/CMakeFiles/sharing.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
 .PHONY : glfw/tests/CMakeFiles/sharing.dir/rule
 
 # Convenience name for target.
@@ -792,14 +792,14 @@ glfw/tests/CMakeFiles/sharing.dir/clean:
 glfw/tests/CMakeFiles/tearing.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw\tests\CMakeFiles\tearing.dir\build.make glfw/tests/CMakeFiles/tearing.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw\tests\CMakeFiles\tearing.dir\build.make glfw/tests/CMakeFiles/tearing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=65,66,67 "Built target tearing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=65,66,67 "Built target tearing"
 .PHONY : glfw/tests/CMakeFiles/tearing.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/tests/CMakeFiles/tearing.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glfw/tests/CMakeFiles/tearing.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
 .PHONY : glfw/tests/CMakeFiles/tearing.dir/rule
 
 # Convenience name for target.
@@ -818,14 +818,14 @@ glfw/tests/CMakeFiles/tearing.dir/clean:
 glfw/tests/CMakeFiles/threads.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw\tests\CMakeFiles\threads.dir\build.make glfw/tests/CMakeFiles/threads.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw\tests\CMakeFiles\threads.dir\build.make glfw/tests/CMakeFiles/threads.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=68,69,70 "Built target threads"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=68,69,70 "Built target threads"
 .PHONY : glfw/tests/CMakeFiles/threads.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/tests/CMakeFiles/threads.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glfw/tests/CMakeFiles/threads.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
 .PHONY : glfw/tests/CMakeFiles/threads.dir/rule
 
 # Convenience name for target.
@@ -844,14 +844,14 @@ glfw/tests/CMakeFiles/threads.dir/clean:
 glfw/tests/CMakeFiles/title.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw\tests\CMakeFiles\title.dir\build.make glfw/tests/CMakeFiles/title.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw\tests\CMakeFiles\title.dir\build.make glfw/tests/CMakeFiles/title.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=71,72 "Built target title"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=71,72 "Built target title"
 .PHONY : glfw/tests/CMakeFiles/title.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/tests/CMakeFiles/title.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glfw/tests/CMakeFiles/title.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
 .PHONY : glfw/tests/CMakeFiles/title.dir/rule
 
 # Convenience name for target.
@@ -870,14 +870,14 @@ glfw/tests/CMakeFiles/title.dir/clean:
 glfw/tests/CMakeFiles/windows.dir/all: glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f glfw\tests\CMakeFiles\windows.dir\build.make glfw/tests/CMakeFiles/windows.dir/depend
 	$(MAKE) $(MAKESILENT) -f glfw\tests\CMakeFiles\windows.dir\build.make glfw/tests/CMakeFiles/windows.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=75,76 "Built target windows"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles --progress-num=75,76 "Built target windows"
 .PHONY : glfw/tests/CMakeFiles/windows.dir/all
 
 # Build rule for subdir invocation for target.
 glfw/tests/CMakeFiles/windows.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glfw/tests/CMakeFiles/windows.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Merij\Downloads\ClionOpenGLSetUp-Windows-master\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\OpenGlSetUpFromGLFW\cmake-build-debug\CMakeFiles 0
 .PHONY : glfw/tests/CMakeFiles/windows.dir/rule
 
 # Convenience name for target.
